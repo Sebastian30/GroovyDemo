@@ -10,7 +10,7 @@ class GroovyDemo {
 
     static def foo(int i, int j, int k){
         def v
-        println(i + j - k)
+        //println(i + j - k)
         v = 42
         return testMethod(i, v, j)
     }
